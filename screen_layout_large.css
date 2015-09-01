@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body { margin: 0px; padding: 0px; 
+	background: #000 url(../images/background_blackGradient.png) repeat-x 0px 0px;}
+header a.logo { display: block; position: absolute; background-position: 0px 0px; background-repeat: no-repeat;}
+nav {
+	width: 100%;
+	display: inline-block; /*inline-block*/
+	position: absolute;
+	/*background-color: #a6430a;*/
+	margin: 10px auto 0 auto;
+	padding-left:9%;
+}
+
+/* Layout Large Screens (default for older browsers) */
+
+header { height: 275px; background: url(../pdlogo02.png) no-repeat right 0px; }
+header a.logo { width: 300px; height: 225px; top: 28px; left: 100px; background-image: url(../images/logo01-220X220.png); }
+
+.content{
+	background: #fff url(../images/background02.jpg) no-repeat 0px 0px;
+}
+
+.content div{
+	background: url(../images/hud.png) repeat 0px 0px;
+}
+.radar{
+	width:200px; height:200px; z-index: 1; position:relative; margin:-300px auto 0 60%; opacity: 0.3;
+}
+.radar { background: url(../images/radar.png); background-position: 100% 0;}
+.radar:hover {background: url(../images/radar_blip02.png); background-position: 0 100%; opacity: 0.5}
+
+
+
+
+
+nav { top: 100px; } /*275px*/
+nav a { margin: 12px auto 10px 35px; }
+
+/*.phone{width:55%; display:inline-block; position:relative; left:45%; bottom: 90px; font-size: 3em; color: #52a0ea;}
+.contact{width:60%; display:inline-block; position:relative; left:40%;bottom:70px; font-size:1em;color:#000;}
+.letter{background-color:#cccccc;height:500px;}*/
+
+@media screen and (max-width: 990px) {
+	nav a{ font-size: 1.2em; margin: 12px auto 10px 25px; padding-left:12px;}
+	footer { padding-left: 30px; }
+}
