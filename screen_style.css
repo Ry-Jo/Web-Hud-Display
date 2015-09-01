@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* Global Styles */
+
+@font-face{
+	font-family:space_age;
+	src:url(../fonts/space_age/space_age.ttf);
+}
+
+body {
+	color: #000;
+	line-height: 1.5em;
+	font-family: 'space_age';
+	font-size: 14px;
+	
+}
+.container{
+	max-width: 100%;
+	/*height:100%;*/
+}
+.content {
+	max-width: 1024px;
+	height:768px;
+	margin: 0px auto 0px auto;
+	position: relative; /*background-color: #bcc5c5;*/
+	-webkit-border-radius: 360px; 
+  	-moz-border-radius: 360px; 
+  	border-radius: 360px; 
+  	overflow: hidden;
+}
+
+h1 { color: #880919; margin: 0em 0em .5em 0em; font-size: 2em; font-weight: normal; }
+h2 { font-size: 1.7em; margin: 0em 0em 1em 0em; }
+h3 { font-size: 1.5em; margin: 0em 0em 1em 0em; }
+
+p { margin: 0px 0px .75em 0px; }
+
+footer { font-size: .85em; color: #fff;  padding: 20px 0px 0px 20px; }
+
+
+nav a {
+	color: #bcc6cc;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block; /*inline-block*/
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+nav a:hover { color: #c3c728; }/*#3a5954*/
+
+
+.clear-fix { clear: both; line-height: 1px; }
+
+
+
